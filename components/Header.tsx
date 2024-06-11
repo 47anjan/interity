@@ -1,9 +1,21 @@
+"use client";
+
+import useScroll from "@/hooks/useScroll";
 import Link from "next/link";
+import { twMerge } from "tailwind-merge";
 
 const Header = () => {
+  const scroll = useScroll();
+  const scrollDir = scroll.y > 80 ? "down" : "up";
+
   return (
-    <header className="fixed z-50 top-[30px] w-full bg-transparent px-2">
-      <nav className="max-w-7xl   w-full py-2  px-2 mx-auto rounded-full  flex items-center justify-between">
+    <header
+      className={twMerge(
+        "fixed z-50 transition-all duration-500 w-full  px-2",
+        scrollDir === "down" ? "top-0 bg-white" : "top-[30px] bg-transparent"
+      )}
+    >
+      <nav className="max-w-7xl  w-full py-2  px-2 mx-auto rounded-full  flex items-center justify-between">
         <Link className="font-bold ml-2 text-2xl" href="/">
           Interity
         </Link>
