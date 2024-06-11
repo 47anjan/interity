@@ -1,6 +1,7 @@
 import { collections } from "@/util/data";
 import Image from "next/image";
 import Link from "next/link";
+import CollectionCard from "./CollectionCard";
 
 const Collection = () => {
   return (
@@ -16,24 +17,7 @@ const Collection = () => {
       </header>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
         {collections.map((collection) => (
-          <Link
-            className=" group transition-all duration-500  "
-            key={collection.id}
-            href={"/"}
-          >
-            <Image
-              width={393}
-              height={503}
-              alt={collection.title}
-              src={collection.image}
-              className="w-full h-[503px] object-cover"
-            />
-            <div className="py-6 group-hover:bg-olive text-light-dark group-hover:text-white transition-all duration-500">
-              <h4 className=" text-3xl font-semibold text-center">
-                {collection.title}
-              </h4>
-            </div>
-          </Link>
+          <CollectionCard key={collection.id} collection={collection} />
         ))}
       </div>
     </section>
