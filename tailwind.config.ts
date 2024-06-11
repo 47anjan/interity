@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         black: "hsla(0, 0%, 26%, 1)",
+        olive: "#465138",
       },
       backgroundImage: {
         hero: "url('/hero.webp')",

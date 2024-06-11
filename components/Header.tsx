@@ -55,7 +55,7 @@ const Header = () => {
           </li>
         </ul>
         <Link
-          className="h-10 rounded-full bg-transparent grid place-content-center px-7 border border-black text-black font-semibold"
+          className="h-10 rounded-full bg-transparent grid place-content-center px-7 border hover:bg-olive hover:text-white transition-all duration-500 border-black text-black font-semibold"
           href="/"
         >
           Sign In
