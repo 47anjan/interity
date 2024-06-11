@@ -11,9 +11,11 @@ const config: Config = {
       colors: {
         black: "hsla(0, 0%, 26%, 1)",
         olive: "#465138",
+        "olive-light": "#616161",
+        "olive-dark": "#3a3a3a",
         "light-dark": "#2D2D2D",
         "light-gray": "#9F9F9F",
-        "dark-gray": "#F6F6F6",
+        "dark-gray": "#F5F5F5",
       },
       backgroundImage: {
         hero: "url('/hero.webp')",

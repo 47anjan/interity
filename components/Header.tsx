@@ -47,7 +47,7 @@ const Header = () => {
           <li>
             <Link
               className="hover:font-bold duration-300 transition-all"
-              href="/"
+              href="/gallery"
             >
               Gallery
             </Link>
