@@ -11,9 +11,16 @@ const config: Config = {
       colors: {
         black: "hsla(0, 0%, 26%, 1)",
         olive: "#465138",
+        "light-dark": "#2D2D2D",
       },
       backgroundImage: {
         hero: "url('/hero.webp')",
+      },
+      maxWidth: {
+        container: "1225px",
+      },
+      spacing: {
+        section: "160px",
       },
     },
   },

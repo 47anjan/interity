@@ -15,8 +15,8 @@ const Header = () => {
         scrollDir === "down" ? "top-0 bg-white" : "top-[30px] bg-transparent"
       )}
     >
-      <nav className="max-w-7xl  w-full py-2  px-2 mx-auto rounded-full  flex items-center justify-between">
-        <Link className="font-bold ml-2 text-2xl" href="/">
+      <nav className="max-w-7xl  w-full py-3  px-2 mx-auto rounded-full  flex items-center justify-between">
+        <Link className="font-bold text-olive ml-2 text-2xl" href="/">
           Interity
         </Link>
 
