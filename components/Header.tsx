@@ -6,7 +6,7 @@ import { twMerge } from "tailwind-merge";
 
 const Header = () => {
   const scroll = useScroll();
-  const scrollDir = scroll.y > 80 ? "down" : "up";
+  const scrollDir = scroll.y > 85 ? "down" : "up";
 
   return (
     <header
