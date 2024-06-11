@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         black: "hsla(0, 0%, 26%, 1)",
       },
+      backgroundImage: {
+        hero: "url('/hero.webp')",
+      },
     },
   },
   plugins: [],
