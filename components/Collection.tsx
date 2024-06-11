@@ -5,7 +5,7 @@ import CollectionCard from "./CollectionCard";
 
 const Collection = () => {
   return (
-    <section className="max-w-container px-4 mx-auto py-section">
+    <section className="max-w-container px-4 mx-auto mb-20 pt-section">
       <header className="text-center mb-11">
         <h2 className="text-5xl font-semibold mb-6">
           Explore Our Stunning Collection
