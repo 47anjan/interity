@@ -5,9 +5,9 @@ import CollectionCard from "./CollectionCard";
 
 const Collection = () => {
   return (
-    <section className="max-w-container px-4 mx-auto mb-20 pt-section">
+    <section className="max-w-container px-4 mx-auto mb-10 pt-20 md:pt-section">
       <header className="text-center mb-11">
-        <h2 className="text-5xl font-semibold mb-6">
+        <h2 className="text-4xl sm:text-5xl font-semibold mb-6">
           Explore Our Stunning Collection
         </h2>
         <p className="text-lg max-w-[616px] text-light-dark mx-auto">

@@ -3,7 +3,7 @@ import ButtonShop from "./ButtonShop";
 
 const Hero = () => {
   return (
-    <section className="min-h-[1024px] pt-[190px] bg-hero bg-center bg-cover bg-no-repeat px-4 flex flex-col items-center gap-9 text-center">
+    <section className="min-h-[900px] sm:min-h-[1024px] pt-[190px] bg-hero bg-center bg-cover bg-no-repeat px-4 flex flex-col items-center gap-9 text-center">
       <h1 className="max-w-[1027px] font-bold text-5xl leading-normal md:text-6xl md:leading-snug ">
         Discover Your Perfect Piece of Furniture
       </h1>

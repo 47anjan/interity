@@ -3,6 +3,7 @@
 import useScroll from "@/hooks/useScroll";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
+import Logo from "./Logo";
 
 const Header = () => {
   const scroll = useScroll();
@@ -16,9 +17,7 @@ const Header = () => {
       )}
     >
       <nav className="max-w-7xl  w-full py-3  px-2 mx-auto rounded-full  flex items-center justify-between">
-        <Link className="font-bold text-olive ml-2 text-2xl" href="/">
-          Interity
-        </Link>
+        <Logo />
 
         <ul className="hidden md:flex items-center gap-10 lg:gap-16 text-xl">
           <li>
