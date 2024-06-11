@@ -1,6 +1,6 @@
 const Subscriptions = () => {
   return (
-    <section className="pt-20 md:pt-section">
+    <section className="pt-20 md:pt-section md:pb-section">
       <article className="max-w-container text-white flex text-center items-center px-4 mx-auto pt-20 pb-[86px] md:rounded-[32px] flex-col bg-olive">
         <h2 className=" font-semibold text-[40px] mb-7">
           Subscribe and Earn 30% Off

@@ -13,6 +13,7 @@ const config: Config = {
         olive: "#465138",
         "light-dark": "#2D2D2D",
         "light-gray": "#9F9F9F",
+        "dark-gray": "#F6F6F6",
       },
       backgroundImage: {
         hero: "url('/hero.webp')",
